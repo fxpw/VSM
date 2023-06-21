@@ -389,23 +389,23 @@ LSM:Register(MediaType_BACKGROUND, "Screen Overlay", [[Interface\AddOns\VSM\Medi
 LSM:Register(MediaType_BACKGROUND, "Smoke", [[Interface\AddOns\VSM\Media\Backgrounds\Smoke.tga]])
 
 if not select(4, GetAddOnInfo('WeakAuras')) then
-	Private.texture_types = {
-	["Kozloff"] = {
-    ["Interface\\AddOns\\VSM\\Media\\Textures\\griph_1"] = "griph_1",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\griph_2"] = "griph_2",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\griph_3"] = "griph_3",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\griph_4"] = "griph_4",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\griph_5"] = "griph_5",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\proc_1"] = "proc_1",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\proc_2"] = "proc_2",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\proc_cc"] = "griph_cc",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\proc_ffb"] = "griph_ffb",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\proc_fof_1"] = "proc_fof_1",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\proc_fof_2"] = "proc_fof_2",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\proc_lowhp"] = "proc_lowhp",
-	["Interface\\AddOns\\VSM\\Media\\Textures\\proc_sprint"] = "proc_sprint",
-	},
-}
+	WeakAuras.texture_types = {
+		["Kozloff"] = {
+			["Interface\\AddOns\\VSM\\Media\\Textures\\griph_1"] = "griph_1",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\griph_2"] = "griph_2",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\griph_3"] = "griph_3",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\griph_4"] = "griph_4",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\griph_5"] = "griph_5",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\proc_1"] = "proc_1",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\proc_2"] = "proc_2",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\proc_cc"] = "griph_cc",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\proc_ffb"] = "griph_ffb",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\proc_fof_1"] = "proc_fof_1",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\proc_fof_2"] = "proc_fof_2",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\proc_lowhp"] = "proc_lowhp",
+			["Interface\\AddOns\\VSM\\Media\\Textures\\proc_sprint"] = "proc_sprint",
+		},
+	}
 end
 
 if not select(4, GetAddOnInfo('ElvUI')) then
