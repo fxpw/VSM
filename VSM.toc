@@ -1,0 +1,12 @@
+## Interface: 30300
+## Title: |cff1daa1dVakh|r Shared Media
+## Notes: Дополнительные текстуры, шрифты, звуки для Вашей любимой игры вов сирус точка су!
+## Version: 3.3
+## Author: Vakh
+## X-Tukui-ProjectID: 135
+## X-Tukui-ProjectFolders: DSM
+
+Libs\LibStub.lua
+Libs\CallbackHandler-1.0.lua
+Libs\LibSharedMedia-3.0.lua
+Media.lua
